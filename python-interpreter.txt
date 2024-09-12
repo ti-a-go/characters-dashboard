@@ -1,0 +1,1 @@
+/home/tiago/.cache/pypoetry/virtualenvs/characters-dashboard-577m-UIY-py3.12
