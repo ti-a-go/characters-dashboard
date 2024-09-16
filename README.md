@@ -10,7 +10,6 @@ Os caractéres são as menores unidades formais dos textos digitais. Mas nem tod
 
 O presente dashboard tem o objetivos de nos ajudar a analísar como os caractéres são utilizados nos textos digitais, mais especificamente em páginas da Wikipedia.
 
----
 
 # Como acessar o dashboard
 
@@ -20,7 +19,6 @@ O presente dashboard tem o objetivos de nos ajudar a analísar como os caractér
 
 3. Start Streamlit development server: `streamlit run dashboard.py`
 
----
 
 # Referências
 
