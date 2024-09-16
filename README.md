@@ -2,7 +2,7 @@
 
 Esse repositório faz parte de um projeto de Análise de Dados focado em Processamento de Linguagem Natural.
 
-Esse repositório é utilizado para desenvolver um dashboard utilizando Python, Streamlit, NLTK e Wikipedia para Análise de Dados focado em Processamento de Linguagem Natural (NLP em inglês).
+Para desenvolvê-lo foram utilizadas as seguintes ferramentas: [Python](https://www.python.org/), [Streamlit](https://streamlit.io/), [NLTK](https://www.nltk.org/) e [Wikipedia](https://wikipedia.readthedocs.io/en/latest/) para Análise de Dados focado em Processamento de Linguagem Natural (NLP em inglês).
 
 Nesse dashboard é possível ver dados analíticos sobre o uso de caractéres em páginas da Wikipedia.
 
