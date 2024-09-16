@@ -1,12 +1,19 @@
 import streamlit as st
+import pandas as pd
+from nltk.lm import Vocabulary
 
 from characters_dashboard import get_large_wikipedia_random_page
+
 
 page = get_large_wikipedia_random_page()
 characters = list(page.content)
 lines = page.content.split('\n')
-charset = set(characters)
+vocabulary = Vocabulary(characters, unk_cutoff=1)
+vocabulary_df = pd.DataFrame({'Caractéres': list(vocabulary.counts.keys()),
+                              'Frequência': list(vocabulary.counts.values())}).sort_values(by='Frequência',
+                                                                                           ascending=False)
 sections = []
+
 
 for line in lines:
     if line.startswith('=='):
@@ -30,7 +37,13 @@ metrics = {
 def main():
     st.title(page.title)
 
-    st.write(charset)
+    st.write(page.summary)
+
+    st.title('Frequência de Caractéres:')
+
+    st.dataframe(vocabulary_df)
+
+    st.title('Algumas métricas:')
 
     st.metric(label=metrics['char_count']['metric_name'],
               value=metrics['char_count']['value'])
@@ -43,8 +56,9 @@ def main():
 
     st.header('Linhas')
     for line in lines:
-        st.divider()
-        st.write(line)
+        if len(line) > 0:
+            st.divider()
+            st.write(line)
 
 
 
