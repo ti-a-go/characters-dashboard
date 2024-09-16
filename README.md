@@ -42,5 +42,5 @@ O dashboard é escrito em Python, utilizando a biblioteca [Streamlit](https://st
 
 [Instituto de Matemática e Estatítica da USP - Didático](https://www.ime.usp.br/~pf/algorithms/appendices/unicode.html)
 
-[Universidade de Wiscosin-Madison](https://www.ssec.wisc.edu/~tomw/java/unicode.html)
+[Universidade de Wiscosin-Madison - Didático](https://www.ssec.wisc.edu/~tomw/java/unicode.html)
 
