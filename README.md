@@ -2,6 +2,19 @@
 
 Esse repositório faz parte de um projeto de Análise de Dados focado em Processamento de Linguagem Natural.
 
+
+[Strings e caractéres]()
+
+[Word Embeding]()
+
+[Tokenization]()
+
+[Lemmantization]()
+
+[Linguística de Corpus]()
+
+[Problemas de classificação linguística]()
+
 # Dashboard
 
 Exibe informações sobre os charactéres de uma página aleatória da Wikipedia.
