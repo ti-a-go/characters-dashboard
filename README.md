@@ -28,3 +28,19 @@ O dashboard é escrito em Python, utilizando a biblioteca [Streamlit](https://st
 2. Instalar as dependências: `python -m pip install .`
 
 3. Start Streamlit development server: `streamlit run dashboard.py`
+
+
+# Referências
+
+[Unicode.org](https://home.unicode.org/)
+
+[Unicode in Python](https://docs.python.org/3/howto/unicode.html)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Unicode)
+
+[W3Shool - Didático](https://www.w3schools.com/charsets/ref_html_utf8.asp)
+
+[Instituto de Matemática e Estatítica da USP - Didático](https://www.ime.usp.br/~pf/algorithms/appendices/unicode.html)
+
+[Universidade de Wiscosin-Madison](https://www.ssec.wisc.edu/~tomw/java/unicode.html)
+
