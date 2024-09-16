@@ -17,7 +17,7 @@ O presente dashboard tem o objetivos de nos ajudar a analísar como os caractér
 
 2. Instalar as dependências: `python -m pip install .`
 
-3. Start Streamlit development server: `streamlit run dashboard.py`
+3. Iniciar o servidor Streamlit: `streamlit run dashboard.py`
 
 
 # Referências
