@@ -1,32 +1,16 @@
 # Caractéres
 
-Esse repositório faz parte de um projeto de Análise de Dados focado em Processamento de Linguagem Natural.
+Esse é um repositório de Análise de Dados focado em Processamento de Linguagem Natural (NLP em inglês). 
 
-Para desenvolvê-lo foram utilizadas as seguintes ferramentas: [Python](https://www.python.org/), [Streamlit](https://streamlit.io/), [NLTK](https://www.nltk.org/) e [Wikipedia](https://wikipedia.readthedocs.io/en/latest/) para Análise de Dados focado em Processamento de Linguagem Natural (NLP em inglês).
+Para desenvolvê-lo foram utilizadas as seguintes ferramentas: [Python](https://www.python.org/), [Streamlit](https://streamlit.io/), [NLTK](https://www.nltk.org/) e [Wikipedia](https://wikipedia.readthedocs.io/en/latest/).
 
-Nesse dashboard é possível ver dados analíticos sobre o uso de caractéres em páginas da Wikipedia.
+Se trata de um dashboard é possível ver dados analíticos sobre o uso de caractéres em páginas da Wikipedia.
 
-Os caractéres são as menores unidades formais dos textos digitais. Mas nem todos os caractéres são "línguísticos", ou seja, são significativos, como alguns espaços em branco ou alguns [caractéres de controle](https://pt.wikipedia.org/wiki/Caractere_de_controle).
+Os caractéres são as menores unidades formais dos textos digitais. Mas nem todos os caractéres são "línguísticos", ou seja, são significativos para o PLN, como alguns espaços em branco ou os [caractéres de controle](https://pt.wikipedia.org/wiki/Caractere_de_controle).
 
 O presente dashboard tem o objetivos de nos ajudar a analísar como os caractéres são utilizados nos textos digitais, mais especificamente em páginas da Wikipedia.
 
-[Strings e caractéres]()
-
-[Word Embeding]()
-
-[Tokenization]()
-
-[Lemmantization]()
-
-[Linguística de Corpus]()
-
-[Problemas de classificação linguística]()
-
-# Dashboard
-
-Exibe informações sobre os charactéres de uma página aleatória da Wikipedia.
-
-O dashboard é escrito em Python, utilizando a biblioteca [Streamlit](https://streamlit.io/).
+---
 
 # Como acessar o dashboard
 
@@ -36,6 +20,7 @@ O dashboard é escrito em Python, utilizando a biblioteca [Streamlit](https://st
 
 3. Start Streamlit development server: `streamlit run dashboard.py`
 
+---
 
 # Referências
 
